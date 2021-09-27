@@ -14,7 +14,7 @@
                 <a class="navbar-brand" href="#">Cody's Portfolio</a>
               </div>
               <ul class="nav navbar-nav">
-                <li class="active"><button onclick="location.href = 'https://fillyphan.github.io';"> Home </a></li></button>
+                <li class="active"><button onclick="location.href = 'https://fillyphan.github.io';"><a href="#"> Home </a></li></button>
                 <li><button onclick = "window.location.reload();"><a href="#">Projects</a></li></button>
               </ul>
             </div>
@@ -24,7 +24,9 @@
     <div class = "grid-container">
        
             <div class="EightBall-App">
+            <img onclick="location.href = 'https://fillyphan.github.io/Magic-8-Ball';" class = "pics"src="8ballpic.JPG" alt="">
             <a href="https://fillyphan.github.io/Magic-8-Ball/">Magic-8-Ball</a>
+            
             <div style="color:white"><p>This project was the results of a challenge. Another student and I decided we would try to use what we have learned so far to build a functioning 8Ball</p></div>
                 </div>
             <div class="EightBall-Repo">
@@ -32,6 +34,7 @@
             <div style="color:white"><p>Here is the 8 Ball Repo</p></div>
                 </div>
             <div class="PurpleBall-App">
+            <img onclick="location.href = 'https://fillyphan.github.io/PurpleBall';"  class = "pics"src="PurpleBallpic.JPG" alt="">
             <a href="https://fillyphan.github.io/PurpleBall/">PurpleBall</a>
             <div style="color:white"><p>A few non developer friends asked if I could create a very simple yet dynamic gambling game to play around with. This is the result. A game with the same playing style as "Acey Deucey"</p></div>
                 </div>
@@ -40,6 +43,7 @@
             <div style="color:white"><p>Here is the PurpleBall Repo</p></div>
                 </div>
             <div class="BusTracker-App">
+            <img onclick="location.href = 'https://fillyphan.github.io/Real-Time-Bus-Tracker';" class = "pics"src="mappic.JPG" alt="">
             <a href="https://fillyphan.github.io/Real-Time-Bus-Tracker/">Real-Time-Bus-Tracker</a>
             <div style="color:white"><p>This project was a school assignment. It's a Bus Tracker thats make a stop, at every bus stop from MIT to Harvard campuses</p></div>
                 </div>
@@ -149,8 +153,17 @@
         color:white;
        }
     
+       .pics{
+           width:300px;
+           height:200px;
+           border-radius:10%;
+           border: 3px solid purple;
+          
+       }   
        
-       
+       .pics:hover{
+        border-color:white;
+       }
     </style>
 
     <body>
@@ -161,3 +174,4 @@
     
 
 </html>
+
