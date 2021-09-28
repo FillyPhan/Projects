@@ -8,7 +8,7 @@ This page is a linked page from my current portfolio main page. It serves to sho
 Visit https://fillyphan.github.io/Projects/
 
 # Future
-I would like to update this weekly to add everything I am currently working on, and also a games page. 
+I would like to update this weekly to add everything I am currently working on and I would also like to style the page to be more mobile friendly. 
 
 # Support
 Reach me for any feedback through Linkedin https://www.linkedin.com/in/cody-marshall-b869b7216/
